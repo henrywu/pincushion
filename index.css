@@ -1,0 +1,327 @@
+body {
+	background: #222222;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	color: #9BA180;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+button.action {
+	background: #000000;
+	border: none;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 11px;
+	padding: 15px 40px;
+}
+.bold {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+.floatLeft {
+	float: left;
+}
+.right {
+	text-align: right;
+}
+.content {
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+}
+.grayOutline {
+	border: solid 1px #CCCCCC;
+}
+.headerContainer {
+	min-height: 50px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.footerContainer {
+	background: #202020;
+	border-top: solid 1px #777777;
+	min-height: 50px;
+}
+.logo {
+	float: left;
+	padding: 20px;
+}
+.mainPanel {
+	min-height: 650px;
+	padding: 10px;
+}
+.bodyPartContainer {
+	position: absolute;
+}
+.bodyPartImgContainer {
+	float: left;
+}
+
+/** Points Styles -- Start **/
+.pointsContainer {
+	position: relative;
+}
+.point {
+	position: absolute;
+	height: 8px;
+	width: 8px;
+}
+div.circle {
+	cursor: pointer;
+	margin: 0 auto;
+	position: absolute;
+	height: 8px;
+	width: 8px;
+}
+div.outer-circle {
+	background: transparent;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	
+	-webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+div.outer-circle.hover {
+	border-color: #FFA500;
+
+	-moz-transform: scale(1.45);
+	-webkit-transform: scale(1.45);
+	transform: scale(1.45);
+}
+div.middle-circle {
+	background: #ECECEC;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D8D8D8), color-stop(100%, #ECECEC));
+    background: -webkit-linear-gradient(top, #D8D8D8 0%, #ECECEC 100%);
+	background: linear-gradient(top, #D8D8D8 0%, #ECECEC 100%);
+	border-radius: 4px;
+	margin: 1px;
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+div.middle-circle.hover {
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+div.inner-circle {
+	background: #333333;
+	border-radius: 2px;
+	box-shadow: inset 0 1px 1px 0 #575757;
+	margin: 3px;
+	position: absolute;
+	height: 4px;
+	width: 4px;
+}
+/** Points Styles -- End **/
+#body {
+	position: relative;
+}
+#bodyPartSelector {
+	height: 650px;
+	position: relative;
+}
+#bodyMap {
+	margin-top: 60px;
+	position: relative;
+}
+.bodyMapContainer {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+}
+.bodyMapPartContainer {
+	position: absolute;
+}
+.bodyMapPartImgContainer {
+	cursor: pointer;
+}
+.bodyMapHead {
+	background-image: url('img/head.png');
+	background-position: 0 0;
+	height: 88px;
+	width: 195px;
+}
+.bodyMapHead-hover {
+	background-position: -195px 0;
+}
+.bodyMapHead-click {
+	background-position: -390px 0;
+}
+.bodyMapRightArm {
+	background-image: url('img/rightarm.png');
+	background-position: 0 0;
+	height: 415px;
+	width: 45px;
+}
+.bodyMapRightArm-hover {
+	background-position: -45px 0;
+}
+.bodyMapRightArm-click {
+	background-position: -90px 0;
+}
+.bodyMapTorso {
+	background-image: url('img/torso.png');
+	background-position: 0 0;
+	height: 204px;
+	width: 105px;
+}
+.bodyMapTorso-hover {
+	background-position: -105px 0;
+}
+.bodyMapTorso-click {
+	background-position: -210px 0;
+}
+.bodyMapLeftArm {
+	background-image: url('img/leftarm.png');
+	background-position: 0 0;
+	height: 415px;
+	width: 45px;
+}
+.bodyMapLeftArm-hover {
+	background-position: -45px 0;
+}
+.bodyMapLeftArm-click {
+	background-position: -90px 0;
+}
+.bodyMapRightLeg {
+	background-image: url('img/rightleg.png');
+	background-position: 0 0;
+	height: 211px;
+	width: 52px;
+}
+.bodyMapRightLeg-hover {
+	background-position: -52px 0;
+}
+.bodyMapRightLeg-click {
+	background-position: -104px 0;
+}
+.bodyMapLeftLeg {
+	background-image: url('img/leftleg.png');
+	background-position: 0 0;
+	height: 211px;
+	width: 52px;
+}
+.bodyMapLeftLeg-hover {
+	background-position: -52px 0;
+}
+.bodyMapLeftLeg-click {
+	background-position: -104px 0;
+}
+.promptContainer {
+	margin-left: 100px;
+}
+.barUnderline {
+	background: url('img/black-10.png') repeat;
+	display: block;
+	height: 5px;
+	margin-top: 25px;
+}
+#backToBodyMap {
+	background: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	line-height: 50px;
+	margin: 0 auto 20px;
+	padding: 10px;
+	width: 165px;
+}
+#backToBodyMap img {
+	float: left;
+	margin-right: 15px;
+}
+.leftPane {
+	float: left;
+	min-height: 760px;
+	width: 350px;
+}
+.rightPane {
+	float: left;
+	min-height: 760px;
+	width: 600px;
+}
+ul#availablePoints, ul#selectedPoints {
+	/*height: 350px;*/
+	list-style: none;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+ul#availablePoints li, ul#selectedPoints li {
+	color: #555555;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px 10px 0 0;
+	padding: 0 20px;
+	width: 200px;
+	
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+ul#selectedPoints li {
+	color: #FFFFFF;
+}
+ul#availablePoints li *, ul#selectedPoints li * {
+	cursor: pointer;
+}
+ul#availablePoints li.selected, ul#availablePoints li:hover, ul#selectedPoints li {
+	box-shadow: 0 1px 10px #111111 inset;
+}
+ul#availablePoints li span.bold {
+	color: #FFFFFF;
+}
+ul#availablePoints li input[type="checkbox"] {
+	margin-right: 20px;
+}
+ul#selectedPoints {
+	float: left;
+	height: 150px;
+	min-width: 750px;
+	overflow: auto;
+}
+.pointHistoryContainer {
+	background: #333333;
+	border-top: solid 1px #202020;
+	box-shadow: 0 0 5px #111111;
+	bottom: 0;
+	height: 30px;
+	overflow: hidden;
+	padding-top: 5px;
+	position: fixed;
+	width: 100%;
+	
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.pointHistoryContainer-open {
+	height: 250px;
+}
+.togglePreviewContainer {
+	height: 30px;
+}
+#btn_next {
+	margin: 50px 10px;
+}
